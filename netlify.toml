@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  GIT_SUBMODULES = "false"
